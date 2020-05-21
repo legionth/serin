@@ -5,6 +5,8 @@ namespace Legionth\Serin;
 
 
 use Clue\React\Buzz\Browser;
+use Legionth\Serin\Internal\AuthorizationStringFactory;
+use Legionth\Serin\Internal\SignatureFactory;
 use Psr\Http\Message\ServerRequestInterface;
 use React\EventLoop\LoopInterface;
 use React\Promise\PromiseInterface;

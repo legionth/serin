@@ -1,7 +1,7 @@
 <?php
 
-use Legionth\Serin\AuthorizationStringFactory;
-use Legionth\Serin\SignatureFactory;
+use Legionth\Serin\Internal\AuthorizationStringFactory;
+use Legionth\Serin\Internal\SignatureFactory;
 use PHPUnit\Framework\TestCase;
 use RingCentral\Psr7\ServerRequest;
 

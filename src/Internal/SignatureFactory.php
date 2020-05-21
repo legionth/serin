@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Legionth\Serin;
+namespace Legionth\Serin\Internal;
 
 
 use Psr\Http\Message\RequestInterface;

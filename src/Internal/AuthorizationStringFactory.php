@@ -1,9 +1,10 @@
 <?php
 
 
-namespace Legionth\Serin;
+namespace Legionth\Serin\Internal;
 
 
+use Legionth\Serin\Internal\SignatureFactory;
 use Psr\Http\Message\ServerRequestInterface;
 
 class AuthorizationStringFactory

@@ -1,7 +1,7 @@
 <?php
 
 
-use Legionth\Serin\AuthorizationStringFactory;
+use Legionth\Serin\Internal\AuthorizationStringFactory;
 use RingCentral\Psr7\ServerRequest;
 
 class TestSignatureFactoryTest extends TestCase
@@ -25,7 +25,7 @@ class TestSignatureFactoryTest extends TestCase
 
         $tweet ='Hello Ladies + Gentlemen, a signed OAuth request!';
 
-        $signatureFactory = new \Legionth\Serin\SignatureFactory();
+        $signatureFactory = new \Legionth\Serin\Internal\SignatureFactory();
 
         $request = new ServerRequest(
             'POST',

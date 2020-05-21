@@ -1,0 +1,21 @@
+{
+    "name": "legionth/serin",
+    "description": "Asynchronous Twitter API Client built on top of ReactPHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niels Theen",
+            "email": "niels.theen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Legionth\\Serin\\": "src/" }
+    },
+    "require": {
+        "clue/buzz-react": "^2.6",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
